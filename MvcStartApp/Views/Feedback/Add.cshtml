@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "View project authors";
+    Layout = "_Layout";
+}
+
+ 
+<div id="main-block" class="text-center">
+    <div>
+        <h3 style="text-align: left">Оставьте отзыв о проекте здесь</h3>
+        <br>
+        <table>
+                <tr>
+                    <td>Ваше имя</td>
+                    <td><input type="text" name="From"/> </td>
+                </tr>
+                <tr>
+                    <td>Ваш отзыв</td>
+                    <td ><input type="text" name="Text"/></td>
+                </tr>
+            </table>
+            <br>
+            <div class="submit-button">
+                <input type="submit" value="Отправить" onclick="ProcessForm()"/>
+            </div>
+    </div>
+</div>
