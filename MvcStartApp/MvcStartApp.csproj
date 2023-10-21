@@ -22,4 +22,12 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Logs\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="Views\Logs\Index.cshtml" />
+  </ItemGroup>
+
 </Project>
